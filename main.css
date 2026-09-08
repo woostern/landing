@@ -1,0 +1,39 @@
+.about {
+    background: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 600px;
+    padding-right: 600px;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.case {
+    color: white;
+    background: #1c1a1a;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.case__info {
+    width: 50%;
+    padding-top: 200px;
+    padding-right: 200px;
+}
+
+.case__image {
+    width: 50%;
+}
+
+.case__title {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.case__link {
+    margin-top: 50px;
+}
