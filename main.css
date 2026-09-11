@@ -1,8 +1,8 @@
 .about {
     background: black;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 600px;
     padding-right: 600px;
     text-align: center;
@@ -36,4 +36,113 @@
 
 .case__link {
     margin-top: 50px;
+}
+
+.case__main {
+    background: #1c1a1a;
+    color: white;
+    padding-left: 70px;
+    font-family: sans-serif;
+}
+.main__header {
+    display: flex;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.header__first {
+    color: #53ec20;
+    margin-right: 10px;
+}
+
+.header__third {
+    color: #53ec20;
+    margin-left: 1150px;
+    margin-right: 35px;
+}
+
+.header__fourth {
+    margin-right: 35px;
+}
+
+.header__fifth {
+    margin-right: 35px;
+}
+
+.something {
+    font-size: 15px;
+}
+.something__first {
+    color: rgb(255 255 255 / 0.3);
+    margin-top: 50px;
+}
+
+.something__second {
+    color: rgb(255 255 255 / 0.3);
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.something__third {
+    color: rgb(255 255 255 / 0.3);
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.text__image {
+    display: flex;
+}
+
+.main__image {
+    width: 50%;
+}
+
+.main__info {
+    margin-right: 520px;
+    margin-top: 50px;
+}
+
+.info__first {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info__second {
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(255 255 255 / 0.3);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.info__third {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.info__fourth {
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(255 255 255 / 0.3);
+}
+
+.buttons {
+    padding-top: 10px;
+    display: flex;
+}
+
+.info__fifth {
+    background: white;
+    color: black;
+    border-radius: 20px 0 20px 0;
+    padding: 10px 33px;
+}
+
+.info__sixth {
+    background: white;
+    color: black;
+    border-radius: 20px 0 20px 0;
+    padding: 10px 33px;
+    margin-left: 20px;
 }
