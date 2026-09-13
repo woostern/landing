@@ -12,7 +12,7 @@
 
 .case {
     color: white;
-    background: #1c1a1a;
+    background: black;
     padding-left: 200px;
     padding-right: 200px;
     font-family: sans-serif;
@@ -145,4 +145,87 @@
     border-radius: 20px 0 20px 0;
     padding: 10px 33px;
     margin-left: 20px;
+}
+
+.case__technologies {
+    background: #1c1a1a;
+    color: white;
+    font-family: sans-serif;
+}
+.technologies_text {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.technologies_languages {
+    display: flex;
+    padding-left: 750px;
+}
+
+.language_one {
+    border: 2px solid #53ec20;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.language_two {
+    border: 2px solid #53ec20;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.language_three {
+    border: 2px solid #53ec20;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.language_fourth {
+    border: 2px solid #53ec20;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.language_five {
+    border: 2px solid #53ec20;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.technologies_textwo {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description_one {
+    /*text-align: center;*/
+    display: flex;
+    padding-left: 600px;
+}
+
+.description_two {
+    text-align: center;
+    display: flex;
+    padding-left: 600px;
+}
+
+.card {
+    border: 2px solid #53ec20;
+    margin-right: 35px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 40px;
+    height: 120px;
+    width: 190px;
+}
+
+.card__second {
+    margin-top: 10px;
+    font-size: 15px;
 }
