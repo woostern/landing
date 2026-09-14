@@ -229,3 +229,71 @@
     margin-top: 10px;
     font-size: 15px;
 }
+
+.case__input {
+    background: #1c1a1a;
+    color: white;
+    font-family: sans-serif;
+}
+.input_text{
+    padding-left: 1360px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input_block {
+    display: flex;
+}
+
+.input_block_text {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 400px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.input_block_contacts {
+    display: flex;
+    padding-left: 350px;
+}
+.contact {
+    font-size: 20px;
+    border: 2px solid #53ec20;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.input_block_two {
+    padding-left: 500px;
+}
+
+.block_placeholder_two {
+    background: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(0 0 0 / 0.3);
+    border-radius: 5px;
+}
+
+.block_placeholder {
+    background: white;
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.placeholder_button {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    border: 2px solid #53ec20;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 250px;
+}
