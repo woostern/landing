@@ -1,0 +1,91 @@
+/*Специальные классы*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/*кнопка*/
+.button {
+    background: white;
+    color: black;
+    border-radius: 20px 0 20px 0;
+    padding: 10px 33px;
+}
+
+/*картинка*/
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.about {
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 100px 32px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 50px 20px;
+    }
+    .about__container {
+        max-width: 100%;
+    }
+}
+
+.case {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    color: white;
+    background: black;
+    font-family: sans-serif;
+}
+
+.case__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.case__button {
+    /*margin-top: 200px;*/
+}
+
+.case__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 600px;
+    gap: 100px;
+}
+
+.case__image {
+    width: 100%;
+}
+
+.case__title {
+    font-size: 32px;
+}
+
+.case__text {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 320px) {
+    .case__image {
+        display: none;
+    }
+}

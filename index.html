@@ -1,231 +1,271 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero-section.css">
+    <link rel="stylesheet" href="css/case-technologies.css">
+    <link rel="stylesheet" href="css/contacts.css">
 </head>
 <body>
-    <div class="case__main">
-        <div class="main__header">
-            <div class="header__first">
+
+<header class="header">
+    <div class="header__container container">
+        <div class="header__logo logo">
+            <div class="logo__icon">
                 &lt;D/&gt;
             </div>
-            <div class="header__second">
+            <div class="logo__text">
                 Chepelinskaya Natalya
             </div>
-            <div class="header__third">
+        </div>
+
+        <nav class="header__menu menu">
+            <div class="logo__icon">
                 &lt;Главная&gt;
             </div>
-            <div class="header__fourth">
+            <div class="menu__item">
                 Обо мне
             </div>
-            <div class="header__fifth">
+            <div class="menu__item">
                 Работы
             </div>
-            <div class="header__sixth">
+            <div class="menu__item">
                 Контакты
             </div>
-        </div>
-        <div class="something">
-            <div class="something__first">
-                &lt;/head&gt;
+        </nav>
+    </div>
+</header>
+
+<!--    Херо секция-->
+<section class="hero">
+    <div class="hero__container container">
+        <div class="hero__content">
+            <div class="hero__info">
+                <div class="hero__code--html">
+                    &lt;/head&gt;
+                </div>
+                <div class="hero__code--body">
+                    &lt;body&gt;
+                </div>
+                <div class="hero__code--h1">
+                    &lt;h1&gt;
+                </div>
             </div>
-            <div class="something__second">
-                &lt;body&gt;
-            </div>
-            <div class="something__third">
-                &lt;h1&gt;
-            </div>
-        </div>
-        <div class="text__image">
-            <div class="main__info">
-                <div class="info__first">
+
+            <div class="hero__wrap">
+                <div class="hero__title">
                     Фронтенд-разработчик
                 </div>
-                <div class="info__second">
+                <div class="hero__code--n">
                     &lt;n&gt;
                 </div>
-                <div class="info__third">
+                <div class="hero__text">
                     Специализируюсь на создании сайтов для компаний из финтех, фудтех, медицины и производства
                 </div>
-                <div class="info__fourth">
+                <div class="hero__code--n">
                     &lt;n&gt;
                 </div>
-                <div class="buttons">
-                    <div class="info__fifth">
+                <div class="hero__actions">
+                    <a class="hero__button button" href="https://github.com/nataliya/nataliya.github.io"
+                       target="_blank">
                         Github
-                    </div>
-                    <div class="info__sixth">
+                    </a>
+                    <a class="hero__button button" href="https://linkedin.com" target="_blank">
                         LinkedIn
-                    </div>
+                    </a>
                 </div>
             </div>
-            <div class="main__image">
-                <img src="https://img.magnific.com/premium-vector/woman-with-glasses-is-standing-with-her-arms-crossed_905719-6868.jpg?semt=ais_hybrid" alt="">
+        </div>
+        <div class="hero__visual">
+
+
+            <div class="hero__photo">
+
+                <img class="image" src="https://img.magnific.com/premium-vector/woman-with-glasses-is-standing-with-her-arms-crossed_905719-6868.jpg?semt=ais_hybrid"
+                     alt="">
+
             </div>
         </div>
     </div>
-    <div class="about">
+</section>
+
+<!--    Секция обо мне-->
+
+<section class="about">
+    <div class="about__container container">
         Меня зовут Наталья, я фронтенд-разработчик. Я отлично знаю базовые технологии:
         JavaScript, HTML, CSS, DOM, Web API. Понимаю принципы и технологии разработки
         современных веб-интерфейсов. У меня был опыт кросс-браузерной разработки, и я
         понимаю принципы работы браузеров. Умею отлаживать, профилировать и
         оптимизировать код.
     </div>
-    <div class="case__technologies">
-        <div class="technologies_text">
+</section>
+
+<!--    Секция технологий-->
+<section class="technologies">
+    <div class="technologies__container container">
+        <div class="case__text">
             Использую технологии, которые не устаревают
         </div>
-        <div class="technologies_languages">
-            <div class="language_one">
+        <div class="case__languages">
+            <div class="language">
                 JS
             </div>
-            <div class="language_two">
+            <div class="language">
                 CSS
             </div>
-            <div class="language_three">
+            <div class="language">
                 HTML
             </div>
-            <div class="language_fourth">
+            <div class="language">
                 ⚛
             </div>
-            <div class="language_five">
+            <div class="language">
                 📶
             </div>
         </div>
-        <div class="technologies_textwo">
+        <div class="case__text">
             Что я могу сделать
         </div>
-        <div class="technologies_description">
-            <div class="description_one">
-                <div class="card">
-                    <div class="card__first">
-                        🛒 Интернет-магазин
-                    </div>
-                    <div class="card__second">
-                        Создайте свой интернет-магазин
-                    </div>
+        <div class="case__services">
+            <div class="card">
+                <div class="card__head">
+                    🛒 Интернет-магазин
                 </div>
-                <div class="card">
-                    <div class="card__first">
-                        🏦 Корпоративный сайт
-                    </div>
-                    <div class="card__second">
-                        Расскажите своим клиентам и Бизнес партнерам о своей компании, ее услугах
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__first">
-                        📋 Сайт-каталог
-                    </div>
-                    <div class="card__second">
-                        Если вы предлагаете большой ассортимент товаров, вам потребуется интернет каталог с описанием товаров
-                    </div>
+                <div class="card__description">
+                    Создайте свой интернет-магазин
                 </div>
             </div>
-            <div class="description_two">
-                <div class="card">
-                    <div class="card__first">
-                        ⿻ B2B портал
-                    </div>
-                    <div class="card__second">
-                        С его помощью можно выстроить эффектную коммуникацию с другими предприятиями и организациями
-                    </div>
+            <div class="card">
+                <div class="card__head">
+                    🏦 Корпоративный сайт
                 </div>
-                <div class="card">
-                    <div class="card__first">
-                        🏪 Маркетплейс
-                    </div>
-                    <div class="card__second">
-                        Онлайн-платформа по предоставлению пролуктов и услуг у нескольких продавцов
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__first">
-                        🌐 Интернет-портал
-                    </div>
-                    <div class="card__second">
-                        Почта, поиск информации, новости, библиотека, фото и видео галереи, погода и не только это - всё есть на одном сервисе
-                    </div>
+                <div class="card__description">
+                    Расскажите своим клиентам и Бизнес партнерам о своей компании, ее услугах
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="case">
-        <div class="case__info">
-            <div class="case__title">
-            Anvio
+            <div class="card">
+                <div class="card__head">
+                    📋 Сайт-каталог
+                </div>
+                <div class="card__description">
+                    Если вы предлагаете большой ассортимент товаров, вам потребуется интернет каталог с описанием
+                    товаров
+                </div>
             </div>
-            <div class="case__mainText">
-                Задача: создать интерактивный сайт для клуба виртуальной реальности «Anvio».
-                На сайте должна была быть возможность перехода на несколько разделов:
-                интернет-магазин, клуб виртуальной реальности, сервисный центр, раздел для
-                бизнеса. Одна из просьб заказчика — игра в стиле «Fruit ninja» в главном блоке.
+            <div class="card">
+                <div class="card__head">
+                    ⿻ B2B портал
+                </div>
+                <div class="card__description">
+                    С его помощью можно выстроить эффектную коммуникацию с другими предприятиями и организациями
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__head">
+                    🏪 Маркетплейс
+                </div>
+                <div class="card__description">
+                    Онлайн-платформа по предоставлению продуктов и услуг у нескольких продавцов
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__head">
+                    🌐 Интернет-портал
+                </div>
+                <div class="card__description">
+                    Почта, поиск информации, новости, библиотека, фото и видео галереи, погода и не только это - всё
+                    есть на одном сервисе
+                </div>
             </div>
             <div class="case__link">
-                Перейти на сайт >
+                <span>
+                    <a href="projects.html">Больше проектов</a>
+                </span>
             </div>
+        </div>
+    </div>
+</section>
+
+<!--    Секция проекты-->
+
+<section class="case">
+    <div class="case__container container">
+        <div class="case__info">
+            <div class="case__title">
+                Anvio
+            </div>
+            <div class="case__mainText">
+            Задача: создать интерактивный сайт для клуба виртуальной реальности «Anvio».
+            На сайте должна была быть возможность перехода на несколько разделов:
+            интернет-магазин, клуб виртуальной реальности, сервисный центр, раздел для
+            бизнеса. Одна из просьб заказчика — игра в стиле «Fruit ninja» в главном блоке.
+            </div>
+            <a class="case__button button" href="https://linkedin.com" target="_blank">
+            LinkedIn
+            </a>
         </div>
         <div class="case__image">
-            <img src="./Assests/image/screenshot-2026-09-08-17-16-20.png" alt="">
+            <img class="image" src="./Assests/image/screenshot-2026-09-08-17-16-20.png" alt="">
         </div>
     </div>
-    <div class="case__input">
-        <div class="input_text">
-            Заявка
-        </div>
-        <div class="input_block">
-            <div class="input_block_one">
-                <div class="input_block_text">
-                    Мои контакты
-                </div>
-                <div class="input_block_contacts">
-                    <div class="contact">
-                        𓃠
-                    </div>
-                    <div class="contact">
-                        in
-                    </div>
-                    <div class="contact">
-                        📧
-                    </div>
-                    <div class="contact">
-                        ➤
-                    </div>
-                </div>
-            </div>
-            <div class="input_block_two">
-                <div class="block_placeholder_one">
-                    Имя
-                </div>
-                <div class="block_placeholder_two">
-                    Константин
-                </div>
-                <div class="block_placeholder_one">
-                    Телефон
-                </div>
-                <div class="block_placeholder_two">
-                    +7 (900) 000-00-00
-                </div>
-                <div class="block_placeholder_one">
-                    Электронная почта
-                </div>
-                <div class="block_placeholder_two">
-                    mail@gmail.com
-                </div>
-                <div class="block_placeholder_one">
-                    Комментарий
-                </div>
-                <div class="block_placeholder">
+</section>
 
-                </div>
-                <div class="placeholder_button">
-                    Хочу вот так!
-                </div>
+<!--    Секция контакты-->
+
+<section class="contacts">
+    <div class="contacts__container container">
+        <div class="contacts__block">
+            <div class="contacts__block--text">
+                Мои контакты
+            </div>
+            <div class="contacts__block--links">
+                <a class="contact">
+                    𓃠
+                </a>
+                <a class="contact">
+                    in
+                </a>
+                <a class="contact">
+                    📧
+                </a>
+                <a class="contact">
+                    ➤
+                </a>
             </div>
         </div>
+        <div class="contacts__block--input">
+            <div class="contacts__block--name">
+                Заявка
+            </div>
+            <div class="form-group">
+                <label>Имя</label>
+                <input class="block__placeholder" placeholder="Константин">
+            </div>
+            <div class="form-group">
+                <label>Телефон</label>
+                <input class="block__placeholder" placeholder="+7 (900) 384-99-99">
+            </div>
+            <div class="form-group">
+                <label>Электронная почта</label>
+                <input class="block__placeholder" placeholder="mail@gmail.com">
+            </div>
+            <div class="form-group">
+                <label>Комментарий</label>
+                <input class="block_placeholder--comment">
+            </div>
+
+            <button class="placeholder_button">
+                Хочу вот так!
+            </button>
+        </div>
     </div>
+</section>
 
 </body>
 </html>
